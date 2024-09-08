@@ -5,9 +5,92 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F2F2F2;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p{
+  font-size: 20px;
+}
+
+
+/* LAPTOP VIEW  */ 
+
+
+/*homepage*/
+@media (min-width: 700px){
+  .hp-hero{
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Homepage/hero-transformed.jpeg');
+    /* background-repeat:no-repeat;
+    background-size: cover;
+    background-size: contain;*/
+    background-position:center; 
+    padding: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .services{
+    flex-direction: row;
+  }
+
+  .hp-cards{
+    flex-direction: row;
+  }
+
+  .para-image{
+    flex-direction: row;
+  }
+
+  /*about us*/
+  .au-hero{
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/About\ Us/about\ us.jpg');
+    color: #fff;
+    background-position:center; 
+    padding: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+
+
+/* MOBILE VIEW */ 
+
+/*homepage*/
+@media (max-width: 700px){
+  .hp-hero{
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Homepage/hero-transformed.jpeg');
+    /* background-repeat:no-repeat;
+    background-size: cover;
+    background-size: contain;*/
+    background-position:center; 
+    padding: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .services{
+    flex-direction: column;
+  }
+
+  .hp-cards{
+    flex-direction: column;
+  }
+
+  .para-image{
+    flex-direction: column;
+  }
+}
+

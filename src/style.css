@@ -1,0 +1,255 @@
+.macbook-pro {
+    background-color: #eeeff0;
+    height: 85px;
+    position: relative;
+    width: 1512px;
+  }
+  
+  .macbook-pro .text-wrapper {
+    color: #02a650;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 942px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    white-space: nowrap;
+  }
+  
+  .macbook-pro .overlap-group {
+    height: 24px;
+    left: 1016px;
+    position: absolute;
+    top: 30px;
+    width: 90px;
+  }
+  
+  .macbook-pro .div {
+    color: #02a650;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .macbook-pro .text-wrapper-2 {
+    color: #02a650;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 1123px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    white-space: nowrap;
+  }
+  
+  .macbook-pro .text-wrapper-3 {
+    color: #02a650;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 1265px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    width: 102px;
+  }
+  
+  .macbook-pro .text-wrapper-4 {
+    color: #02a650;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 1384px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    white-space: nowrap;
+  }
+  
+  .macbook-pro .automatefin-logo-png {
+    height: 53px;
+    left: 19px;
+    object-fit: cover;
+    position: absolute;
+    top: 17px;
+    width: 384px;
+  }
+
+  .frame {
+    background-color: #f2f2f2;
+    height: 791px;
+    position: relative;
+    width: 1512px;
+  }
+  
+  .frame .text-wrapper {
+    color: #02a650;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    left: 53px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 23px;
+    white-space: nowrap;
+  }
+  
+  .frame .overlap {
+    height: 647px;
+    left: 756px;
+    position: absolute;
+    top: 124px;
+    width: 700px;
+  }
+  
+  .frame .rectangle {
+    background-color: #ffffff;
+    height: 603px;
+    left: 91px;
+    position: absolute;
+    top: 18px;
+    width: 518px;
+  }
+  
+  .frame .div {
+    color: #02a650;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 226px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 350px;
+  }
+  
+  .frame .p {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 112px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 408px;
+    width: 484px;
+  }
+  
+  .frame .rectangle-2 {
+    background-color: #0270a7;
+    border-radius: 2px;
+    height: 63px;
+    left: 272px;
+    position: absolute;
+    top: 533px;
+    width: 177px;
+  }
+  
+  .frame .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    left: 302px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 544px;
+  }
+  
+  .frame .working-capital-loan {
+    height: 647px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 700px;
+  }
+  
+  .frame .overlap-group {
+    height: 647px;
+    left: 55px;
+    position: absolute;
+    top: 112px;
+    width: 696px;
+  }
+  
+  .frame .rectangle-3 {
+    background-color: #ffffff;
+    height: 616px;
+    left: 91px;
+    position: absolute;
+    top: 17px;
+    width: 514px;
+  }
+  
+  .frame .personal-loan {
+    height: 647px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 696px;
+  }
+  
+  .frame .text-wrapper-3 {
+    color: #02a650;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 266px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 362px;
+  }
+  
+  .frame .share-your-personal {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 118px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 391px;
+    width: 487px;
+  }
+  
+  .frame .rectangle-4 {
+    background-color: #0270a7;
+    border-radius: 2px;
+    height: 63px;
+    left: 260px;
+    position: absolute;
+    top: 531px;
+    width: 177px;
+  }
+  
+  .frame .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    left: 290px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 542px;
+  }
+  
