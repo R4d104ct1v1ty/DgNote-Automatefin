@@ -5,6 +5,9 @@ import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import Home from './Home'
 import AboutUs from './AboutUs'
 import Footer from './Footer'
+import Faqs from './Faqs'
+import PersonalLoan from './PersonalLoan';
+import WorkingCapitalLoan from './WCL'
 
 
 function App() {
@@ -16,9 +19,9 @@ function App() {
           <Routes>
             <Route path="/"  element={<Home />} />
             <Route path="aboutus"  element={<AboutUs />} />
-            {/*<Route path="personalloan"  element={<PersonalLoan />} />
+            <Route path="personalloan"  element={<PersonalLoan />} />
             <Route path="wcl"  element={<WorkingCapitalLoan />} />
-            <Route path="faq"  element={<FAQ />} /> */}
+            <Route path="faq"  element={<Faqs/>} /> 
           </Routes>
         </main>
       </BrowserRouter>

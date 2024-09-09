@@ -60,6 +60,10 @@ p{
     justify-content: center;
     flex-direction: column;
   }
+
+  .WCL-hero{
+    background-image: url('./Resources/Working\ Capital\ Loan/hero.jpg');
+  }
 }
 
 
