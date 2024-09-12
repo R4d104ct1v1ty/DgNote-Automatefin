@@ -1,22 +1,22 @@
-import scf from './Resources/Working\ Capital\ Loan/supply-chain-finance.png'
-import vf from './Resources/Working\ Capital\ Loan/vendor-finance.png'
+import scf from './Resources/Working Capital Loan/supply-chain-finance.png'
+import vf from './Resources/Working Capital Loan/vendor-finance.png'
 import VerticalCard from './VerticalCard'
-import cf from './Resources/Working\ Capital\ Loan/customized-finance.png';
-import ff from './Resources/Working\ Capital\ Loan/flexible-fund-laptop.png';
-import flexible from './Resources/Personal\ Loan/flexible-loan-laptop.png';
-import interest from './Resources/Personal\ Loan/competitive-interest-laptop.png';
-import collateral from './Resources/Personal\ Loan/collateral-laptop.png';
-import support from './Resources/Personal\ Loan/support-laptop.png';
-import agreement from './Resources/Personal\ Loan/agreement-laptop.png';
-import application from './Resources/Personal\ Loan/application-laptop.png';
-import approval from './Resources/Personal\ Loan/approval-laptop.png';
-import funds from './Resources/Personal\ Loan/funds-laptop.png';
-import repayment from './Resources/Personal\ Loan/repayment-laptop.png';
-import review from './Resources/Personal\ Loan/review-laptop.png';
+import cf from './Resources/Working Capital Loan/customized-finance.png';
+import ff from './Resources/Working Capital Loan/flexible-fund-laptop.png';
+import flexible from './Resources/Personal Loan/flexible-loan-laptop.png';
+import interest from './Resources/Personal Loan/competitive-interest-laptop.png';
+import collateral from './Resources/Personal Loan/collateral-laptop.png';
+import support from './Resources/Personal Loan/support-laptop.png';
+import agreement from './Resources/Personal Loan/agreement-laptop.png';
+import application from './Resources/Personal Loan/application-laptop.png';
+import approval from './Resources/Personal Loan/approval-laptop.png';
+import funds from './Resources/Personal Loan/funds-laptop.png';
+import repayment from './Resources/Personal Loan/repayment-laptop.png';
+import review from './Resources/Personal Loan/review-laptop.png';
 import docs from './Resources/Homepage/document-laptop.png'
-import flexibility from './Resources/Working\ Capital\ Loan/flexibility.png'
-import expertise from './Resources/Working\ Capital\ Loan/expertise.png'
-import innovation from './Resources/About\ Us/innovation-laptop.png'
+import flexibility from './Resources/Working Capital Loan/flexibility.png'
+import expertise from './Resources/Working Capital Loan/expertise.png'
+import innovation from './Resources/About Us/innovation-laptop.png'
 
 const WCL = () => {
     return ( 

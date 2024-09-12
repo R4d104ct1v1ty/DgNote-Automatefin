@@ -1,6 +1,6 @@
-import fb from './Resources/Contact\ US/facebook.png'
-import google from './Resources/Contact\ US/google.png'
-import twitter from './Resources/Contact\ US/twitter.png'
+import fb from './Resources/Contact US/facebook.png'
+import google from './Resources/Contact US/google.png'
+import twitter from './Resources/Contact US/twitter.png'
 
 const ContactUs = () => {
     return ( 

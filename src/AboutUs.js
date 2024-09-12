@@ -1,16 +1,16 @@
 import {Link} from 'react-router-dom'
-import ov from './Resources/About\ Us/Our\ vision.jpg';
-import om from './Resources/About\ Us/Our\ Mission.jpg'
+import ov from './Resources/About Us/Our vision.jpg';
+import om from './Resources/About Us/Our Mission.jpg'
 import VerticalCard from './VerticalCard';
-import integrity from './Resources/About\ Us/Integrity_laptop.png'
-import empowerment from './Resources/About\ Us/Empowerment-laptop.png'
-import innovation from './Resources/About\ Us/innovation-laptop.png'
-import adaptability from './Resources/About\ Us/adaptability-laptop.png'
-import excellence from './Resources/About\ Us/excellence-laptop.png'
-import community from './Resources/About\ Us/community-laptop.png'
-import collaboration from './Resources/About\ Us/collaboration-laptop.png'
-import cod from './Resources/About\ Us/diversity-laptop.png'
-import gm from './Resources/About\ Us/growth-mindset-laptop.png'
+import integrity from './Resources/About Us/Integrity_laptop.png'
+import empowerment from './Resources/About Us/Empowerment-laptop.png'
+import innovation from './Resources/About Us/innovation-laptop.png'
+import adaptability from './Resources/About Us/adaptability-laptop.png'
+import excellence from './Resources/About Us/excellence-laptop.png'
+import community from './Resources/About Us/community-laptop.png'
+import collaboration from './Resources/About Us/collaboration-laptop.png'
+import cod from './Resources/About Us/diversity-laptop.png'
+import gm from './Resources/About Us/growth-mindset-laptop.png'
 
 const AboutUs = () => {
     return ( 

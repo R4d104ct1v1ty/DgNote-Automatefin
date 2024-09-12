@@ -1,4 +1,4 @@
-import hero from './Resources/Personal\ Loan/main.jpg'
+import hero from './Resources/Personal Loan/main.jpg'
 import {useState} from 'react'
 
 const PlHero = () => {

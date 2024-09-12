@@ -1,4 +1,4 @@
-import hero from './Resources/Vendor\ Finance/hero.png'
+import hero from './Resources/Vendor Finance/hero.png'
 
 const VendorFinance = () => {
     return ( 
