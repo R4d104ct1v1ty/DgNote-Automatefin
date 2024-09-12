@@ -14,11 +14,14 @@ import support from './Resources/Personal\ Loan/support-laptop.png';
 import transparency from './Resources/Personal\ Loan/transparency-laptop.png';
 import {Link} from 'react-router-dom'
 import docs from './Resources/Homepage/document-laptop.png'
+import Accordion from './Accordion'
+import PlHero from './PlHero';
 
 
 const PersonalLoan = () => {
     return ( 
         <div className="pl">
+            <PlHero />
             <div style={{display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center', marginTop: '60px'}}>
                 <h3 style={{color: '#02A650'}}>What is Personal Loan</h3>
                 <p style={{textAlign: 'left', width: '70%', marginTop: '30px'}}>
@@ -28,8 +31,8 @@ income for approval. They're repaid in fixed monthly installments over a set per
             </div>
             <div style={{marginTop: '60px', marginBottom: '30px'}}>
                 <h3 style={{color: '#02A650'}}>Features and Benefits</h3>
-                <div className='pl-icons' style={{marginTop: '30px'}}>
-                    <div style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
+                <div style={{marginTop: '30px'}}>
+                    <div className='icons' style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
                         <div style={{width: '250px', margin: '30px'}}>
                             <img src={flexible} alt="" />
                             <h5>Integrity</h5>
@@ -47,7 +50,7 @@ income for approval. They're repaid in fixed monthly installments over a set per
 customers.</span>
                         </div>
                     </div>
-                    <div style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
+                    <div className='icons' style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
                         <div style={{width: '250px', margin: '30px'}}>
                             <img src={repayment} alt="" />
                             <h5>Adaptability</h5>
@@ -80,9 +83,9 @@ ourselves.</span>
                     <li style={{marginTop: '15px', marginBottom: '15px'}}>Must have a good credit history (credit score requirements may vary)</li>
                 </ol>
             </div>
-            <div style={{display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center', marginTop: '60px'}}>
+            <div  style={{display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center', marginTop: '60px'}}>
                 <h3 style={{color: '#02A650'}}>Application Process</h3>
-                <div style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
+                <div className='icons' style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
                     <div style={{width: '250px', margin: '30px'}}>
                         <img src={application} alt="" />
                         <h5>1.Submit an Online Application</h5>
@@ -128,7 +131,7 @@ conditions of the loan.</span>
             </div>
             <div style={{display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center', marginTop: '60px', marginBottom: '60px'}}>
                 <h3 style={{color: '#02A650'}}>Why Choose AutomateFin for Your Personal Loan Needs?</h3>
-                <div style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
+                <div className='icons' style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
                     <div style={{width: '250px', margin: '30px'}}>
                         <img src={application} alt="" />
                         <h5>Trusted Partner</h5>
@@ -153,6 +156,10 @@ and conditions of your personal loan before signing.</span>
 assist you with any questions or concerns you may have throughout the loan process.</span>
                     </div>
                 </div>
+            </div>
+            <div style={{marginBottom: '100px'}}>
+                <h3 style={{color: '#02A650'}}>Frequently Asked Questions</h3>
+                <Accordion />
             </div>
         </div>
      );

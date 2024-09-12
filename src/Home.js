@@ -11,6 +11,7 @@ import dl from './Resources/Homepage/document-laptop.png'
 import qa from './Resources/Homepage/quick-approval-laptop.png'
 import loan from './Resources/Homepage/loan\ for\ every\ need-laptop.png'
 import emi from './Resources/Homepage/EMI-laptop.png'
+import Accordion from './Accordion'
 
 const Home = () => {
     return ( 
@@ -20,17 +21,17 @@ const Home = () => {
                 <h3 style={{color:'#fff', marginTop: '3%'}}>Your one-stop shop for all your financial needs!From planning to investing, we've got you covered.Let's make your financial goals a reality!</h3>
                 <button style={{padding: '10px', borderRadius: '3px', backgroundColor:'#02A650', border: 'none', color: '#fff', marginTop: '3%', fontSize: '20px', paddingLeft:'15px', paddingRight: '15px'}}>Explore</button>
             </div>
-            <div className='hp-explore-services' style={{display: 'flex', flexDirection: 'column'}}>
-                <h3 style={{color: '#02A650', marginTop: '40px', marginLeft: '2%', float:'left', display: 'inline', width:'50%', maxWidth:"300px"}}>Explore Our Services</h3>
+            <div className='hp-explore-services' style={{display: 'flex', flexDirection: 'column', marginTop: '60px'}}>
+                <h3 style={{color: '#02A650'}}>Explore Our Services</h3>
                 <div className='services' style={{display:'flex', margin:'auto'}}>
                 <VerticalCard image={PersonalLoan} title='Personal Loan' content="
-        Share your personal needs with us and we'll customize a Personal Loan to fulfill them" button='true' mg='5'/>
+        Share your personal needs with us and we'll customize a Personal Loan to fulfill them" button='true' link="personalloan" mg='5'/>
                 <VerticalCard image={WCL} title='Working Capital Loan' content="
                 Manage your businesses day-to-day expenses and covers inventory, cash, accounts
-                payable / receivable, and short-term debt with us" button='true' mg='5'/>
+                payable / receivable, and short-term debt with us" button='true' link="wcl" mg='5'/>
                 </div>
             </div>
-            <div className='hp-solutions' style={{display: 'flex', flexDirection: 'column'}}>
+            <div className='hp-solutions' style={{display: 'flex', flexDirection: 'column', marginTop: '60px'}}>
                 <h3 style={{color: '#02A650', marginTop: '40px', marginLeft: '2%', float:'left', display: 'inline', width:'50%', maxWidth:"450px"}}>Loan Solutions for Your Every Need</h3>
                 <div className='hp-cards' style={{display: 'flex'}}>
                 <VerticalCard image={HO} title='Home Ownership Made Possible' content="Share your personal needs with us and we'll customize a Personal Loan to fulfill them" mg='auto'/>
@@ -44,8 +45,8 @@ const Home = () => {
                 Fast personal loans for unforeseen expenses" mg='auto'/>
                 </div>
             </div>
-            <div className='hp-wcu' style={{display: 'flex', flexDirection: 'column'}}>
-                <h3 style={{color: '#02A650', marginTop: '40px', marginLeft: '2%', float:'left', display: 'inline', width:'50%', maxWidth:"450px"}}>Why Choose Us</h3>
+            <div className='hp-wcu' style={{display: 'flex', flexDirection: 'column', marginTop: '60px', marginBottom: '100px', justifyContent: 'center', alignItems:'center'}}>
+                <h3 style={{color: '#02A650'}}>Why Choose Us</h3>
                 <div className='para-image' style={{display: 'flex', alignItems: 'center'}}>
                 <div className='para-text' style={{flexBasis: '50%', textAlign:'left', position: 'relative', left:"5%", marginTop: '2%',marginRight: '5%'}}>
                     <span style={{maxWidth: "100%", textAlign: 'left', fontSize: "24px"}}>
@@ -57,44 +58,33 @@ const Home = () => {
                     <img src={WCU} alt=""  style={{width: '70%', minWidth: '350px'}}/>
                 </div>
                 </div>
-                <div className='wcu-icons' style={{marginTop: '7%'}}>
-                <div className='it-pair' style={{display: 'flex', margin: 'auto', alignItems: 'center', justifyContent: 'center', position: 'relative', right: '10%'}}>
-                    <div className='it-icon' style={{margin:'5%'}}>
-                    <img src={dl} alt="" />
+                <div className='icons' style={{display: 'flex', margin: 'auto', justifyContent: 'center', marginTop: '60px'}}>
+                    <div style={{width: '250px', margin: '30px'}}>
+                        <img src={dl} alt="" />
+                        <h5>Easy Documentation</h5>
+                        <span style={{textAlign:'left'}}>Wave goodbye to lengthy paperwork with easy documentation</span>
                     </div>
-                    <div className='it-text'>
-                        <h5 style={{fontSize:'24px', textAlign: 'left'}}>Easy Documentation</h5>
-                        <span style={{fontSize: '24px', textAlign: 'left'}}>Wave goodbye to lengthy paperwork with easy documentation</span>
+                    <div style={{width: '250px', margin: '30px'}}>
+                        <img src={qa} alt="" />
+                        <h5>Flexible EMIs</h5>
+                        <span>Customized your repayment schedule to manage your budget with our flexible EMI options.</span>
                     </div>
-                </div>
-                <div className='it-pair' style={{display: 'flex', margin: 'auto', alignItems: 'center', justifyContent: 'center', position: 'relative', right: '10%'}}>
-                    <div className='it-icon' style={{margin:'5%'}}>
-                    <img src={emi} alt="" />
+                    <div style={{width: '250px', margin: '30px'}}>
+                        <img src={loan} alt="" />
+                        <h5>Quick Approvals</h5>
+                        <span>Welcome fast approvals! Your loan application can be approved in no time</span>
                     </div>
-                    <div className='it-text'>
-                        <h5 style={{fontSize:'24px', textAlign: 'left'}}>Flexible EMIs</h5>
-                        <span style={{fontSize: '24px', textAlign: 'left'}}>Customized your repayment schedule to manage your budget with our flexible EMI options.</span>
-                    </div>
-                </div>
-                <div className='it-pair' style={{display: 'flex', margin: 'auto', alignItems: 'center', justifyContent: 'center', position: 'relative', right: '10%'}}>
-                    <div className='it-icon' style={{margin:'5%'}}>
-                    <img src={qa} alt="" />
-                    </div>
-                    <div className='it-text'>
-                        <h5 style={{fontSize:'24px', textAlign: 'left'}}>Quick Approvals</h5>
-                        <span style={{fontSize: '24px', textAlign: 'left'}}>Welcome fast approvals! Your loan application can be approved in no time</span>
+                    <div style={{width: '250px', margin: '30px'}}>
+                        <img src={emi} alt="" />
+                        <h5>Loans for Every Need</h5>
+                        <span>One-stop financial solution for all your needs.</span>
                     </div>
                 </div>
-                <div className='it-pair' style={{display: 'flex', margin: 'auto', alignItems: 'center', justifyContent: 'center', position: 'relative', right: '10%'}}>
-                    <div className='it-icon' style={{margin:'5%'}}>
-                    <img src={loan} alt="" />
-                    </div>
-                    <div className='it-text'>
-                        <h5 style={{fontSize:'24px', textAlign: 'left'}}>Loans for Every Need</h5>
-                        <span style={{fontSize: '24px', textAlign: 'left'}}>One-stop financial solution for all your needs.</span>
-                    </div>
-                </div>
-                </div>
+                <button style={{width: '200px', padding: '15px', border: 'none', backgroundColor: '#0270A7', color: '#fff', marginTop: '70px'}}>Apply Now</button>
+            </div>
+            <div style={{width: '100%', marginBottom: '100px'}}>
+                <h3 style={{color: '#02A650'}}>Frequently Asked Questions</h3>
+                <Accordion />
             </div>
         </div>
      );

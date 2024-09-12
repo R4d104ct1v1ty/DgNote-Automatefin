@@ -18,11 +18,12 @@ p{
 }
 
 
+
 /* LAPTOP VIEW  */ 
 
 
 /*homepage*/
-@media (min-width: 700px){
+@media (min-width: 1000px){
   .hp-hero{
     height: 60vh;
     background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Homepage/hero-transformed.jpeg');
@@ -62,7 +63,29 @@ p{
   }
 
   .WCL-hero{
-    background-image: url('./Resources/Working\ Capital\ Loan/hero.jpg');
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Working\ Capital\ Loan/hero.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+  .icons{
+    flex-direction: row;
+  }
+
+  /* .cf-hero{
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url('./Resources/Channel\ Finance/hero.png');
+  } */
+
+  .pl-in{
+    flex-direction: 'row';
+  }
+
+  .cu-hero{
+    background: url('./Resources/Contact\ US/hero.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
   }
 }
 
@@ -71,7 +94,7 @@ p{
 /* MOBILE VIEW */ 
 
 /*homepage*/
-@media (max-width: 700px){
+@media (max-width: 1000px){
   .hp-hero{
     height: 60vh;
     background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Homepage/hero-transformed.jpeg');
@@ -95,6 +118,31 @@ p{
 
   .para-image{
     flex-direction: column;
+  }
+
+  .icons{
+    flex-direction: column;
+  }
+
+  .WCL-hero{
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Working\ Capital\ Loan/hero.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  /* .cf-hero{
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url('./Resources/Channel\ Finance/hero.png');
+  } */
+
+  .pl-in{
+    flex-direction: 'column';
+  }
+
+  .cu-hero{
+    background: url('./Resources/Contact\ US/hero.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
   }
 }
 

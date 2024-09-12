@@ -1,4 +1,4 @@
-
+import Accordion from './Accordion'
 
 const Faqs = () => {
     return ( 
@@ -16,7 +16,7 @@ const Faqs = () => {
                 </li>
             </ul>
             <div>
-                {/* <Accordion /> */}
+                <Accordion />
             </div>
             
         </div>

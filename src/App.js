@@ -7,26 +7,34 @@ import AboutUs from './AboutUs'
 import Footer from './Footer'
 import Faqs from './Faqs'
 import PersonalLoan from './PersonalLoan';
-import WorkingCapitalLoan from './WCL'
+import WCL from './WCL'
+import Cf from './ChannelFinance'
+import Vf from './VendorFinance'
+import Cu from './ContactUs'
 
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+      
         <main>
           <Routes>
             <Route path="/"  element={<Home />} />
             <Route path="aboutus"  element={<AboutUs />} />
             <Route path="personalloan"  element={<PersonalLoan />} />
-            <Route path="wcl"  element={<WorkingCapitalLoan />} />
-            <Route path="faq"  element={<Faqs/>} /> 
+            <Route path="wcl"  element={<WCL />} />
+            <Route path="faq"  element={<Faqs/>} />
+            <Route path="cf" element={<Cf />} /> 
+            <Route path="vf" element={<Vf />} />
+            <Route path="cu" element={<Cu />} />
           </Routes>
         </main>
-      </BrowserRouter>
+      
       <Footer />
     </div>
+    </BrowserRouter>
   );
 }
 
