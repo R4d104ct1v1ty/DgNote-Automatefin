@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/automatefin/static/css/main.17ad29a7.css",
+    "main.js": "/automatefin/static/js/main.35e5690b.js",
+    "static/js/453.6e4e3895.chunk.js": "/automatefin/static/js/453.6e4e3895.chunk.js",
+    "static/media/Peace-of-mind.jpg": "/automatefin/static/media/Peace-of-mind.8a58f3443358e5580a01.jpg",
+    "static/media/Car.jpeg": "/automatefin/static/media/Car.b3e783358f18f459c39d.jpeg",
+    "static/media/hero-transformed.jpeg": "/automatefin/static/media/hero-transformed.4d6f9fe9b00dcad6a038.jpeg",
+    "static/media/Working-Capital-Loan.jpg": "/automatefin/static/media/Working-Capital-Loan.1cf28d57a2e676e6b78c.jpg",
+    "static/media/about us.jpg": "/automatefin/static/media/about us.f157cc19725075be1cb8.jpg",
+    "static/media/Logo.png": "/automatefin/static/media/Logo.667f81889b032c071540.png",
+    "static/media/hero.png": "/automatefin/static/media/hero.26b2de32172850d93ce5.png",
+    "static/media/Managing-Finances.jpg": "/automatefin/static/media/Managing-Finances.226dedff03fec7994186.jpg",
+    "static/media/hero.jpg": "/automatefin/static/media/hero.8540c13a00fa611b2d89.jpg",
+    "static/media/Education.jpg": "/automatefin/static/media/Education.c4dca7d16e0b845e6592.jpg",
+    "static/media/Our Mission.jpg": "/automatefin/static/media/Our Mission.db9882173e88eb06a7f0.jpg",
+    "static/media/Our vision.jpg": "/automatefin/static/media/Our vision.1839435f2476d624a429.jpg",
+    "static/media/main.jpg": "/automatefin/static/media/main.7a9d3f369ea838cc23d5.jpg",
+    "static/media/Personal-Loan.jpeg": "/automatefin/static/media/Personal-Loan.c9c580fc649d74db79a9.jpeg",
+    "index.html": "/automatefin/index.html",
+    "main.17ad29a7.css.map": "/automatefin/static/css/main.17ad29a7.css.map",
+    "main.35e5690b.js.map": "/automatefin/static/js/main.35e5690b.js.map",
+    "453.6e4e3895.chunk.js.map": "/automatefin/static/js/453.6e4e3895.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17ad29a7.css",
+    "static/js/main.35e5690b.js"
+  ]
+}
