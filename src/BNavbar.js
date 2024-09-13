@@ -16,19 +16,22 @@ const Navbar = () => {
           <Link to="/" className="nav-link" style={{color:'#02A650'}}>Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="aboutus" style={{color:'#02A650'}}>About Us</Link>
+          <Link className="nav-link" to="/aboutus" style={{color:'#02A650'}}>About Us</Link>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#02A650'}}>
             Our Services
           </a>
           <ul className="dropdown-menu">
-            <li><Link className="nav-link" to="personalloan" style={{color:'#02A650'}}>Personal Loan</Link></li>
-            <li><Link className="nav-link" to="wcl" style={{color:'#02A650'}}>Working Capital Loan</Link></li>
+            <li><Link className="nav-link" to="/personalloan" style={{color:'#02A650'}}>Personal Loan</Link></li>
+            <li><Link className="nav-link" to="/wcl" style={{color:'#02A650'}}>Working Capital Loan</Link></li>
           </ul>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="cu" style={{color:'#02A650'}}>Contact Us</Link>
+          <Link className="nav-link" to="/faq" style={{color:'#02A650'}}>FAQs</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/cu" style={{color:'#02A650'}}>Contact Us</Link>
         </li>
       </ul>
     </div>

@@ -16,6 +16,7 @@ const Footer = () => {
                     <Link to="/aboutus"><h5 style={{color: '#02A650'}}>About Us</h5></Link>
                     <Link to="/personalloan"><h5 style={{color: '#02A650'}}>Personal Loan</h5></Link>
                     <Link to="/wcl"><h5 style={{color: '#02A650'}}>Working Capital Loan</h5></Link>
+                    <Link to="/faq"><h5 style={{color: '#02A650'}}>FAQs</h5></Link>
                     <Link to="/cu"><h5 style={{color: '#02A650'}}>Contact Us</h5></Link>
                 </div>
                 <div style={{marginLeft: "10%"}}>
