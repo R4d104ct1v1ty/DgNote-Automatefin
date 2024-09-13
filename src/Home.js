@@ -14,14 +14,25 @@ import emi from './Resources/Homepage/EMI-laptop.png'
 import Accordion from './Accordion'
 
 const Home = () => {
+
+    const btn = document.getElementById('btn');
+    const target = document.getElementById('target');
+
+    const scrollsec = () =>{
+        window.scrollTo({
+            top: target.offsetTop,
+            behavior: 'smooth'
+        })
+    }
+
     return ( 
         <div>
             <div className='hp-hero'>
                 <h1 style={{color:'#fff'}}>Bridging Finance with Automation</h1>
                 <h3 style={{color:'#fff', marginTop: '3%'}}>Your one-stop shop for all your financial needs!From planning to investing, we've got you covered.Let's make your financial goals a reality!</h3>
-                <button style={{padding: '10px', borderRadius: '3px', backgroundColor:'#02A650', border: 'none', color: '#fff', marginTop: '3%', fontSize: '20px', paddingLeft:'15px', paddingRight: '15px'}}>Explore</button>
+                <button id="btn" onClick={scrollsec} style={{padding: '10px', borderRadius: '3px', backgroundColor:'#02A650', border: 'none', color: '#fff', marginTop: '3%', fontSize: '20px', paddingLeft:'15px', paddingRight: '15px'}}>Explore</button>
             </div>
-            <div className='hp-explore-services' style={{display: 'flex', flexDirection: 'column', marginTop: '60px'}}>
+            <div className='hp-explore-services' id="target" style={{display: 'flex', flexDirection: 'column', marginTop: '60px'}}>
                 <h3 style={{color: '#02A650'}}>Explore Our Services</h3>
                 <div className='services' style={{display:'flex', margin:'auto'}}>
                 <VerticalCard image={PersonalLoan} title='Personal Loan' content="
