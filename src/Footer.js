@@ -13,10 +13,10 @@ const Footer = () => {
                 <div style={{display: 'flex', flexDirection: 'column'}}>
                     <h5>Quick Links</h5>
                     <Link to="/"><h5 style={{color: '#02A650'}}>Home</h5></Link>
-                    <Link to="/aboutus"></Link><h5 style={{color: '#02A650'}}>About Us</h5>
-                    <Link to="/personalloan"></Link><h5 style={{color: '#02A650'}}>Personal Loan</h5>
-                    <Link to="/wcl"></Link><h5 style={{color: '#02A650'}}>Working Capital Loan</h5>
-                    <Link to="/cu"></Link><h5 style={{color: '#02A650'}}>Contact Us</h5>
+                    <Link to="/aboutus"><h5 style={{color: '#02A650'}}>About Us</h5></Link>
+                    <Link to="/personalloan"><h5 style={{color: '#02A650'}}>Personal Loan</h5></Link>
+                    <Link to="/wcl"><h5 style={{color: '#02A650'}}>Working Capital Loan</h5></Link>
+                    <Link to="/cu"><h5 style={{color: '#02A650'}}>Contact Us</h5></Link>
                 </div>
                 <div style={{marginLeft: "10%"}}>
                     <h5 style={{textAlign: 'left'}}>Contact Us</h5>
