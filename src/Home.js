@@ -15,10 +15,8 @@ import Accordion from './Accordion'
 
 const Home = () => {
 
-    const btn = document.getElementById('btn');
-    const target = document.getElementById('target');
-
     const scrollsec = () =>{
+        const target = document.getElementById('target');
         window.scrollTo({
             top: target.offsetTop,
             behavior: 'smooth'
@@ -43,7 +41,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='hp-solutions' style={{display: 'flex', flexDirection: 'column', marginTop: '60px'}}>
-                <h3 style={{color: '#02A650', marginTop: '40px', marginLeft: '2%', float:'left', display: 'inline', width:'50%', maxWidth:"450px"}}>Loan Solutions for Your Every Need</h3>
+                <h3 style={{color: '#02A650'}}>Loan Solutions for Your Every Need</h3>
                 <div className='hp-cards' style={{display: 'flex'}}>
                 <VerticalCard image={HO} title='Home Ownership Made Possible' content="Share your personal needs with us and we'll customize a Personal Loan to fulfill them" mg='auto'/>
                 <VerticalCard image={Ed} title='Invest in Your Future with Education Loans' content="
