@@ -18,27 +18,27 @@ const AboutUs = () => {
             <div className="au-hero">
                 <h3>Welcome to AutomateFin, where we’re all about turning your financial dreams into reality!</h3>
             </div>
-            <div className="au-info" style={{marginTop: '60px', marginLeft: '20px', width: '75%', margin:'auto'}}>
+            <div className="au-info" style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent: 'center', marginTop: '60px'}}>
                 <h3 style={{color: '#02A650'}}>About Us</h3>
-                <p style={{marginTop: '30px', textAlign: 'left', marginBottom: '0',fontSize: '20px'}}>
+                <p style={{marginTop: '30px', textAlign: 'left', marginBottom: '0',fontSize: '20px', width: '70%'}}>
                 Welcome to AutomateFin, where we’re all about turning your financial dreams into reality! Whether you’re an individual
 aiming for personal milestones or a business eyeing expansion, we’ve got your back.
                 </p>
-                <p style={{textAlign: 'left', marginBottom: '0'}}>
+                <p style={{textAlign: 'left', marginBottom: '0', width: '70%'}}>
                 Picture this: you, effortlessly cruising towards your goals with our tailored personal loans, designed for your
 convenience and peace of mind. Need a little extra boost for your business ambitions? Our business working capital
 financing solutions are your ticket to smooth sailing, keeping your operations afloat and propelling your growth.
                 </p>
-                <p style={{textAlign: 'left', marginBottom: '0'}}>
+                <p style={{textAlign: 'left', marginBottom: '0', width: '70%'}}>
                 Who’s our crowd? Well, it’s you, the go-getters, the dreamers, and the doers! Whether you’re an individual seeking
 support or a business hungry for growth, AutomateFin is your partner in progress.
                 </p>
-                <p style={{textAlign: 'left', marginBottom: '40px'}}>
+                <p style={{textAlign: 'left', marginBottom: '40px', width: '70%'}}>
                 But wait, there's more! Behind the scenes, we've assembled a crack team of financial wizards and friendly faces.
 From savvy advisors to loan gurus, our crew is dedicated to making your journey not just successful, but downright
 enjoyable. With their expertise and passion, you're not just a client, you're part of the AutomateFin family.
                 </p>
-                <Link to=''><button style={{border: 'none', backgroundColor: '#0270A7', color:'#fff', padding: '5px 8px 5px', borderRadius: '3px'}}>Get In Touch</button></Link>
+                <Link to={`/cu`}><button style={{border: 'none', backgroundColor: '#0270A7', color:'#fff', padding: '5px 8px 5px', borderRadius: '3px'}}>Get In Touch</button></Link>
             </div>
             <div className='au-mv' style={{marginTop: '60px', backgroundColor: '#F3F3F3'}}>
                 <div className='services' style={{display:'flex', margin:'auto', justifyContent:'center', backgroundColor: '#F3F3F3'}}>
@@ -59,7 +59,7 @@ businesses through innovation and collaboration. We hold ourselves to the highes
 striving to make a positive impact in the communities we serve.
                 </p>
                 <div className='au-val-icons'>
-                    <div style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
+                    <div className="icons" style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
                         <div style={{width: '250px', margin: '30px'}}>
                             <img src={integrity} alt="" />
                             <h5>Integrity</h5>
@@ -77,7 +77,7 @@ striving to make a positive impact in the communities we serve.
 customers.</span>
                         </div>
                     </div>
-                    <div style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
+                    <div className="icons" style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
                         <div style={{width: '250px', margin: '30px'}}>
                             <img src={adaptability} alt="" />
                             <h5>Adaptability</h5>
@@ -104,7 +104,7 @@ ourselves.</span>
 embracing challenges with a growth mindset, and celebrating the unique perspectives of every individual. Together,
 we foster an environment where innovation flourishes, and every team member is valued for their contributions</p>
                 <div>
-                    <div style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
+                    <div className="icons" style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
                         <div style={{width: '250px', margin: '30px'}}>
                             <img src={collaboration} alt="" />
                             <h5>Collaboration</h5>

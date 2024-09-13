@@ -39,18 +39,18 @@ const PlHero = () => {
                 <div className='pl-in' style={{display:'flex', width: '100%', justifyContent: 'center', alignItems: 'center'}}>
                     <div  style={{width:'100%', backgroundColor: '#fff', padding: '25px'}}>
                         <div style={{display: 'flex', width: '80%'}}>
-                            <label for="customRange2" class="form-label" >Loan amount Required</label>
-                            <input type="range" class="form-range" min="1" max="5" step="0.5" id="customRange1" style={{width: '100%'}} defaultValue="1" onChange={changeVal1}></input>
+                            <label htmlFor="customRange2" className="form-label" >Loan amount Required</label>
+                            <input type="range" className="form-range" min="1" max="5" step="0.5" id="customRange1" style={{width: '100%'}} defaultValue="1" onChange={changeVal1}></input>
                             <div style={{backgroundColor: '#EAEDEC', padding:'5px', height: '50%', width: '20%', marginLeft: '5px'}}>Rs. {val1}</div>
                         </div>
                         <div style={{display: 'flex', width: '80%'}}>
-                            <label for="customRange2" class="form-label">Interest Rate (% P.A)</label>
-                            <input type="range" class="form-range" min="5" max="12" step="0.5" id="customRange2" defaultValue='10' style={{width: '100%'}} onChange={changeVal2}></input>
+                            <label htmlFor="customRange2" className="form-label">Interest Rate (% P.A)</label>
+                            <input type="range" className="form-range" min="5" max="12" step="0.5" id="customRange2" defaultValue='10' style={{width: '100%'}} onChange={changeVal2}></input>
                             <div style={{backgroundColor: '#EAEDEC', padding:'5px', height: '50%', width: '20%', marginLeft: '5px'}}>{val2}%</div>
                         </div>
                         <div style={{display: 'flex', width: '80%'}}>
-                            <label for="customRange3" class="form-label">Tenure (Years)</label>
-                            <input type="range" class="form-range" min="1" max="5" step="0.5" id="customRange3" style={{width: '100%'}} defaultValue='1' onChange={changeVal3}></input>
+                            <label htmlFor="customRange3" className="form-label">Tenure (Years)</label>
+                            <input type="range" className="form-range" min="1" max="5" step="0.5" id="customRange3" style={{width: '100%'}} defaultValue='1' onChange={changeVal3}></input>
                             <div style={{backgroundColor: '#EAEDEC', padding:'5px', height: '50%', width: '20%', marginLeft: '5px'}}>{val3} years</div>
                         </div>
                         <h5 style={{marginTop:"30px"}}>Rs. {emi} is your monthly EMI</h5>

@@ -2,6 +2,7 @@ import logo from './Resources/Logo.png'
 import phone from './Resources/Homepage/contact-laptop.png'
 import location from './Resources/Homepage/location-laptop.png'
 import mail from './Resources/Homepage/mail-laptop.png'
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
     return ( 
@@ -11,11 +12,11 @@ const Footer = () => {
             <div style={{display: 'flex', justifyContent: 'center', margin: 'auto', marginTop: '30px'}}>
                 <div style={{display: 'flex', flexDirection: 'column'}}>
                     <h5>Quick Links</h5>
-                    <h5 style={{color: '#02A650'}}>Home</h5>
-                    <h5 style={{color: '#02A650'}}>About Us</h5>
-                    <h5 style={{color: '#02A650'}}>Our Services</h5>
-                    <h5 style={{color: '#02A650'}}>Resources</h5>
-                    <h5 style={{color: '#02A650'}}>Contact Us</h5>
+                    <Link to="/"><h5 style={{color: '#02A650'}}>Home</h5></Link>
+                    <Link to="/aboutus"></Link><h5 style={{color: '#02A650'}}>About Us</h5>
+                    <Link to="/personalloan"></Link><h5 style={{color: '#02A650'}}>Personal Loan</h5>
+                    <Link to="/wcl"></Link><h5 style={{color: '#02A650'}}>Working Capital Loan</h5>
+                    <Link to="/cu"></Link><h5 style={{color: '#02A650'}}>Contact Us</h5>
                 </div>
                 <div style={{marginLeft: "10%"}}>
                     <h5 style={{textAlign: 'left'}}>Contact Us</h5>

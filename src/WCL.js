@@ -34,10 +34,10 @@ business operations, seizing growth opportunities, and navigating through period
                 <h3 style={{color: '#02A650'}}>Explore Our Services</h3>
                 <div className='services' style={{display:'flex', margin:'auto', marginTop: '40px'}}>
                     <VerticalCard image={scf} title='Channel Finance / Supply Chain Finance' content="
-            Optimizes supply chain financing for distributors and dealers, ensuring smooth operations and cash flow" button='true' mg='5'/>
+            Optimizes supply chain financing for distributors and dealers, ensuring smooth operations and cash flow" button='true' link="cf" mg='5'/>
                     <VerticalCard image={vf} title='Vendor Finance' content="
                     Empowers suppliers to offer financing solutions to their buyers, enhancing business relationships and facilitating
-                    transactions" button='true' mg='5'/>
+                    transactions" button='true' link="vf" mg='5'/>
                 </div>
             </div>
             <div style={{marginTop: '60px', marginBottom: '30px'}}>

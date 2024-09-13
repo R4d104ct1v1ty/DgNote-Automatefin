@@ -116,6 +116,18 @@ p{
     flex-direction: column;
   }
 
+  .au-hero{
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/About\ Us/about\ us.jpg');
+    color: #fff;
+    background-position:center; 
+    padding: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .para-image{
     flex-direction: column;
   }

@@ -13,7 +13,7 @@ const VerticalCard = (props) => {
             <div className="card-body">
                 <h5 className="card-title" style={{color: '#02A650'}}>{title}</h5>
                 <p className="card-text">{content}</p>
-                {button == 'true'?<Link to={link} className="btn btn-primary" style={{backgroundColor: '#0270A7'}}>Explore</Link>:<></>}
+                {button == 'true'?<Link to={`/${link}`} className="btn btn-primary" style={{backgroundColor: '#0270A7'}}>Explore</Link>:<></>}
             </div>
         </div>
      );
