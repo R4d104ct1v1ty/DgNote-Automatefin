@@ -1,7 +1,6 @@
 {
   "name": "automatefin",
   "version": "0.1.0",
-  "homepage": "https://r4d104ct1v1ty.github.io/automatefin",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
