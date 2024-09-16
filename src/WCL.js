@@ -9,9 +9,7 @@ import collateral from './Resources/Personal Loan/collateral-laptop.png';
 import support from './Resources/Personal Loan/support-laptop.png';
 import agreement from './Resources/Personal Loan/agreement-laptop.png';
 import application from './Resources/Personal Loan/application-laptop.png';
-import approval from './Resources/Personal Loan/approval-laptop.png';
 import funds from './Resources/Personal Loan/funds-laptop.png';
-import repayment from './Resources/Personal Loan/repayment-laptop.png';
 import review from './Resources/Personal Loan/review-laptop.png';
 import docs from './Resources/Homepage/document-laptop.png'
 import flexibility from './Resources/Working Capital Loan/flexibility.png'
