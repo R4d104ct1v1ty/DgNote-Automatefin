@@ -41,7 +41,7 @@ business operations, seizing growth opportunities, and navigating through period
             <div style={{marginTop: '60px', marginBottom: '30px'}}>
                 <h3 style={{color: '#02A650'}}>Features and Benefits</h3>
                 <div className='pl-icons' style={{marginTop: '30px'}}>
-                    <div style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
+                    <div className='icons' style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
                         <div style={{width: '250px', margin: '30px'}}>
                             <img src={ff} alt="" />
                             <h5>Flexible Funding Options</h5>
@@ -59,7 +59,7 @@ without delay.</span>
                             <span>We work closely with you to understand your business’s specific cash flow requirements and tailor financing solutions to meet your needs. Whether you require a revolving line of credit, invoice financing, or inventory financing, we have you covered.</span>
                         </div>
                     </div>
-                    <div style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
+                    <div className='icons' style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
                         <div style={{width: '250px', margin: '30px'}}>
                             <img src={interest} alt="" />
                             <h5>Competitive Interest Rates</h5>
@@ -96,7 +96,7 @@ guidance throughout the financing process, ensuring that you have the resources 
             </div>
             <div style={{display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center', marginTop: '60px'}}>
                 <h3 style={{color: '#02A650'}}>Application Process</h3>
-                <div style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
+                <div className='icons' style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
                     <div style={{width: '250px', margin: '30px'}}>
                         <img src={application} alt="" />
                         <h5>1.Submit an Online Application</h5>
@@ -148,7 +148,7 @@ providing you with the working capital you need to support your operations and g
             </div>
             <div style={{display: 'flex', flexDirection: 'column',justifyContent: 'center', alignItems: 'center', marginTop: '60px', marginBottom: '60px'}}>
                 <h3 style={{color: '#02A650'}}>Why Choose AutomateFIn for Your Working Capital Finance Needs?</h3>
-                <div style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
+                <div className='icons' style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
                 <div style={{width: '250px', margin: '30px'}}>
                         <img src={expertise} alt="" />
                         <h5>Expertise</h5>
