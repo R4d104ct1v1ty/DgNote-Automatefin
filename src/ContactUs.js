@@ -29,12 +29,12 @@ const ContactUs = () => {
       </div>
       <div style={{width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
       <div data-mdb-input-init className="form-outline mb-4" style={{width: '70%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-        <input type="email" id="fname" className="form-control" />
+        <input type="text" id="fname" className="form-control" />
         <label className="form-label" htmlFor="fname">First Name</label>
       </div>
 
       <div data-mdb-input-init className="form-outline mb-4" style={{width: '70%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-        <input type="email" id="lastName" className="form-control" />
+        <input type="text" id="lastName" className="form-control" />
         <label className="form-label" htmlFor="lastName">Last Name</label>
       </div>
 
@@ -43,7 +43,7 @@ const ContactUs = () => {
         <label className="form-label" htmlFor="emailid">Email</label>
       </div>
       <div data-mdb-input-init className="form-outline mb-4" style={{width: '70%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-        <input type="email" id="cnum" className="form-control" />
+        <input type="number" id="cnum" className="form-control" />
         <label className="form-label" htmlFor="cnum">Contact Number</label>
       </div>
       <div data-mdb-input-init className="form-outline mb-4" style={{width: '70%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
