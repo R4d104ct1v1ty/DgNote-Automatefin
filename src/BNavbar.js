@@ -10,8 +10,8 @@ const Navbar = () => {
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul className="navbar-nav" style={{position:'relative', left:'25%'}}>
+    <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" >
+      <ul className="navbar-nav justify-content-end">
         <li className="nav-item">
           <Link to="/" className="nav-link" style={{color:'#02A650'}}>Home</Link>
         </li>
