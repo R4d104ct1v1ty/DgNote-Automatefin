@@ -9,7 +9,7 @@ const PlHero = () => {
 
     const changeVal1 = (event)=>{
         setVal1(event.target.value*100000);
-        const p = val1;
+        const p = (event.target.value*100000);
         const r = val2/1200;
         const n = val3*12;
         const installment = (p*r*(Math.pow((1+r),n)))/((Math.pow((1+r),n))-1)
@@ -17,8 +17,9 @@ const PlHero = () => {
     }
     const changeVal2 = (event)=>{
         setVal2(event.target.value);
+        console.log(event.target.value);
         const p = val1;
-        const r = val2/1200;
+        const r = (event.target.value)/1200;
         const n = val3*12;
         const installment = (p*r*(Math.pow((1+r),n)))/((Math.pow((1+r),n))-1)
         setEmi(Math.floor(installment));
@@ -27,7 +28,7 @@ const PlHero = () => {
         setVal3(event.target.value);
         const p = val1;
         const r = val2/1200;
-        const n = val3*12;
+        const n = (event.target.value)*12;
         const installment = (p*r*(Math.pow((1+r),n)))/((Math.pow((1+r),n))-1)
         setEmi(Math.floor(installment));
     }

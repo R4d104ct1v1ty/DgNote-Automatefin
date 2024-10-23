@@ -10,11 +10,13 @@ import WCL from './WCL'
 import Cf from './ChannelFinance'
 import Vf from './VendorFinance'
 import Cu from './ContactUs'
+import ScrollToTop from './ScrollToTop';
 
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="App">
         <Navbar />
       

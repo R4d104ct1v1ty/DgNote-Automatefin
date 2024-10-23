@@ -49,6 +49,10 @@ p{
     flex-direction: row;
   }
 
+  .image-para{
+    margin-left: 10%;
+  }
+
   /*about us*/
   .au-hero{
     height: 60vh;
@@ -110,10 +114,19 @@ p{
   }
   .services{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .hp-cards{
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .para-image{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .au-hero{

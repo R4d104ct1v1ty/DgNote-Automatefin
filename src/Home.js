@@ -27,7 +27,7 @@ const Home = () => {
         <div>
             <div className='hp-hero'>
                 <h1 style={{color:'#fff'}}>Bridging Finance with Automation</h1>
-                <h3 style={{color:'#fff', marginTop: '3%'}}>Your one-stop shop for all your financial needs!From planning to investing, we've got you covered.Let's make your financial goals a reality!</h3>
+                <h3 style={{color:'#fff', marginTop: '3%'}}>Your one-stop shop for all your financial needs! From planning to investing, we've got you covered. Let's make your financial goals a reality!</h3>
                 <button id="btn" onClick={scrollsec} style={{padding: '10px', borderRadius: '3px', backgroundColor:'#02A650', border: 'none', color: '#fff', marginTop: '3%', fontSize: '20px', paddingLeft:'15px', paddingRight: '15px'}}>Explore</button>
             </div>
             <div className='hp-explore-services' id="target" style={{display: 'flex', flexDirection: 'column', marginTop: '60px'}}>
@@ -63,8 +63,8 @@ const Home = () => {
         confidence to plan for a better tomorrow while enjoying today to the fullest. We make it happen with our range of easy-to-use financial products, backed by friendly service and user-friendly technology.
                     </span>
                 </div>
-                <div className='image-para' style={{width: '50%', marginTop: '5%', alignItems: 'center', justifyContent:'center'}}>
-                    <img src={WCU} alt=""  style={{width: '70%', minWidth: '350px'}}/>
+                <div className='image-para' style={{marginTop: '5%', alignItems: 'center', justifyContent:'center'}}>
+                    <img src={WCU} alt=""  style={{width: '100%', minWidth: '350px'}}/>
                 </div>
                 </div>
                 <div className='icons' style={{display: 'flex', margin: 'auto', justifyContent: 'center', marginTop: '60px'}}>
