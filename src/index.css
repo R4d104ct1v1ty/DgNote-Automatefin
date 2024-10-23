@@ -66,6 +66,14 @@ p{
     flex-direction: column;
   }
 
+  .pl-hero-img{
+    margin-left: 5%;
+  }
+
+  .EMI-range{
+    width: 20%;
+  }
+
   .WCL-hero{
     background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Working\ Capital\ Loan/hero.jpg');
     background-position:center;
@@ -167,7 +175,20 @@ p{
   } */
 
   .pl-in{
-    flex-direction: 'column';
+    flex-direction: column-reverse;
+
+  }
+
+  .pl-hero-img{
+    margin-bottom: 5%;
+  }
+
+  .pl-EMI, label{
+    font-size: 12px;
+  }
+
+  .EMI-range{
+    width: 70%;
   }
 
   .cu-hero{
