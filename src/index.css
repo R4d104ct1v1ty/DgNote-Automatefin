@@ -141,12 +141,19 @@ p{
     flex-direction: column;
   }
 
+  .au-val{
+    justify-content: center;
+    align-items: center;
+  }
+
   .para-image{
     flex-direction: column;
   }
 
   .icons{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .WCL-hero{
