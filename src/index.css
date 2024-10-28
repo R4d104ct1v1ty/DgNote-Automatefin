@@ -166,9 +166,12 @@ p{
 
   .WCL-hero{
     background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Working\ Capital\ Loan/hero.jpg');
-    background-position:center;
     background-repeat:no-repeat;
-    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover; 
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
   }
   /* .cf-hero{
     background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url('./Resources/Channel\ Finance/hero.png');
