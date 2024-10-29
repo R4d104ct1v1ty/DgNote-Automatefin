@@ -23,7 +23,7 @@ p{
 
 
 /*homepage*/
-@media (min-width: 1000px){
+@media (min-width: 768px){
   .hp-hero{
     height: 60vh;
     background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Homepage/hero-transformed.jpeg');
@@ -103,6 +103,28 @@ p{
   .content-inactive{
     display: none;
   }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Added class for footer sections */
+.footer-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Default to center align */
+}
+
+/* Styles for contact items */
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Increased margin for spacing */
+}
 }
 
 
@@ -110,7 +132,7 @@ p{
 /* MOBILE VIEW */ 
 
 /*homepage*/
-@media (max-width: 1000px){
+@media (max-width: 768px){
   .hp-hero{
     height: 60vh;
     background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Homepage/hero-transformed.jpeg');
@@ -208,5 +230,23 @@ p{
   .content-inactive{
     display: none;
   }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left */
+    padding-left: 20px; /* Adds padding for consistency */
+}
+
+.footer-section {
+    width: 100%; /* Ensures sections take full width */
+    margin-bottom: 20px; /* Adds space between Contact Us and Quick Links */
+    align-items: flex-start; /* Left align in mobile view */
+}
+
+/* Ensure contact items have spacing on mobile */
+.contact-item {
+    margin-bottom: 15px; /* Adjust margin for mobile */
+}
+
 }
 
