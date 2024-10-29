@@ -15,6 +15,7 @@ import docs from './Resources/Homepage/document-laptop.png'
 import flexibility from './Resources/Working Capital Loan/flexibility.png'
 import expertise from './Resources/Working Capital Loan/expertise.png'
 import innovation from './Resources/About Us/innovation-laptop.png'
+import {Link} from 'react-router-dom'
 
 const WCL = () => {
     return ( 
@@ -94,6 +95,7 @@ guidance throughout the financing process, ensuring that you have the resources 
                     <li style={{marginTop: '15px', marginBottom: '15px'}}>Must have satisfactory creditworthiness and financial stability</li>
                 </ol>
             </div>
+            <Link to='/cu'><button style={{border: 'none', backgroundColor: '#0270A7', color:'#fff', padding: '10px', borderRadius: '3px'}}>Apply Now</button></Link>
             <div style={{display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center', marginTop: '60px'}}>
                 <h3 style={{color: '#02A650'}}>Application Process</h3>
                 <div className='icons' style={{display: 'flex', margin: 'auto', justifyContent: 'center'}}>
@@ -177,6 +179,7 @@ and data analytics to deliver better outcomes for our customers.</span>
             <div style={{display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center', marginTop: '60px', marginBottom: '100px'}}>
                 <h3 style={{color: '#02A650'}}>Apply For Working Capital Loan Today</h3>
                 <p style={{textAlign: 'left', width:'70%'}}>Don&#39;t let cash flow constraints hold your business back. Apply for working capital finance with AutomateFin today and unlock the liquidity you need to drive success and achieve your business objectives.</p>
+                <Link to='/cu'><button style={{border: 'none', backgroundColor: '#0270A7', color:'#fff', padding: '10px', borderRadius: '3px', marginTop:'30px'}}>Apply Now</button></Link>
             </div>
             
         </div>

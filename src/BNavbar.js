@@ -13,25 +13,25 @@ const Navbar = () => {
     <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" >
       <ul className="navbar-nav justify-content-end">
         <li className="nav-item">
-          <Link to="/" className="nav-link" style={{color:'#02A650'}}>Home</Link>
+          <Link to="/" className="nav-link" style={{color:'#02A650', fontSize: '18px'}}>Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/aboutus" style={{color:'#02A650'}}>About Us</Link>
+          <Link className="nav-link" to="/aboutus" style={{color:'#02A650', fontSize: '18px'}}>About Us</Link>
         </li>
         <li className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#02A650'}}>
+          <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#02A650', fontSize: '18px'}}>
             Our Services
           </Link>
           <ul className="dropdown-menu">
-            <li><Link className="nav-link" to="/personalloan" style={{color:'#02A650'}}>Personal Loan</Link></li>
-            <li><Link className="nav-link" to="/wcl" style={{color:'#02A650'}}>Working Capital Loan</Link></li>
+            <li><Link className="nav-link" to="/personalloan" style={{color:'#02A650', fontSize: '18px'}}>Personal Loan</Link></li>
+            <li><Link className="nav-link" to="/wcl" style={{color:'#02A650', fontSize: '18px'}}>Working Capital Loan</Link></li>
           </ul>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/faq" style={{color:'#02A650'}}>FAQs</Link>
+          <Link className="nav-link" to="/faq" style={{color:'#02A650', fontSize: '18px'}}>FAQs</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/cu" style={{color:'#02A650'}}>Contact Us</Link>
+          <Link className="nav-link" to="/cu" style={{color:'#02A650', fontSize: '18px'}}>Contact Us</Link>
         </li>
       </ul>
     </div>

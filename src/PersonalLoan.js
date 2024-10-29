@@ -66,7 +66,7 @@ ourselves.</span>
                         </div>
                     </div>
                 </div>
-                <Link to=''><button style={{border: 'none', backgroundColor: '#0270A7', color:'#fff', padding: '10px', borderRadius: '3px'}}>Apply Now</button></Link>
+                <Link to='/cu'><button style={{border: 'none', backgroundColor: '#0270A7', color:'#fff', padding: '10px', borderRadius: '3px'}}>Apply Now</button></Link>
             </div>
             <div style={{display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center', marginTop: '60px'}}>
                 <h3 style={{color: '#02A650'}}>Eligibility Criteria</h3>
@@ -123,7 +123,7 @@ conditions of the loan.</span>
                     <li style={{marginTop: '15px', marginBottom: '15px'}}>Financial Records: Business financial statements if self-employed.</li>
                     <li style={{marginTop: '15px', marginBottom: '15px'}}>Existing Debts: Statements for loans or credit cards.</li>
                 </ol>
-                <Link to=''><button style={{border: 'none', backgroundColor: '#0270A7', color:'#fff', padding: '10px', borderRadius: '3px'}}>Apply Now</button></Link>
+                <Link to='/cu'><button style={{border: 'none', backgroundColor: '#0270A7', color:'#fff', padding: '10px', borderRadius: '3px'}}>Apply Now</button></Link>
             </div>
             <div style={{display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center', marginTop: '60px', marginBottom: '60px'}}>
                 <h3 style={{color: '#02A650'}}>Why Choose AutomateFin for Your Personal Loan Needs?</h3>
