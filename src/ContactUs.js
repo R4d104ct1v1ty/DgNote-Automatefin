@@ -78,6 +78,45 @@ const ContactUs = () => {
       }
     }
 
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      if(!(fnameval || lnameval || emailval || contactval)){
+        const fname = document.querySelector('#fname').value;
+        const lname = document.querySelector('#lname').value;
+        const email = document.querySelector('#email').value;
+        const contact = document.querySelector('#contact').value;
+        const msg = document.querySelector('#floatingTextarea2').value;
+        await fetch("https://script.google.com/macros/s/AKfycbx_MtrMB1wNT4gjDzrJQFt-MnfLjwzKggxk-LWTdLFZcwxZzfaNuy3_corSlOz06Mn0/exec", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+          },
+          body: new URLSearchParams({
+            First_Name: fname,
+            Last_Name: lname,
+            Email_ID: email,
+            Contact_Number: contact,
+            Message: msg
+          }),
+          mode: "no-cors"
+        });
+        document.querySelector('#fname').value = "";
+        document.querySelector('#lname').value = "";
+        document.querySelector('#email').value = "";
+        document.querySelector('#contact').value = "";
+        document.querySelector('#floatingTextarea2').value = "";
+        alert("Form submitted successfully!");
+      }else if(fnameval){
+        alert("Invalid First Name!");
+      }else if(lnameval){
+        alert("Invalid Last Name!");
+      }else if(emailval){
+        alert("Invalid Email!");
+      }else if(contactval){
+        alert("Invalid Contact!");
+      }
+    }
+
     return ( 
         <div>
             <div className="cu-hero" style={{height:'50vh'}}>
@@ -86,7 +125,7 @@ const ContactUs = () => {
                 <h3 style={{color:'#02A650'}}>Get In Touch With Us</h3>
                 <p>Thanks for reaching out. Contact our support team via phone or email for any queries or assistance regarding personal loans. We look forward to hearing from you.</p>
             </div>
-            <form className='needs-validation'>
+            <form className='needs-validation' onSubmit={e => handleSubmit(e)}>
 
             <div style={{width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             <div className="row g-2" style={{width: '70%'}}>
