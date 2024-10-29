@@ -1,10 +1,6 @@
-import fb from './Resources/Contact US/facebook.png'
-import google from './Resources/Contact US/google.png'
-import twitter from './Resources/Contact US/twitter.png'
 import { useState } from 'react'
 
 const ContactUs = () => {
-    const [formError, setFormError] = useState(false);
     const [fnameval, setFnameval] = useState(false); // boolean for error in First name 
 
     const [lnameval, setLnameval] = useState(false); // boolean for error in Last name
@@ -22,20 +18,16 @@ const ContactUs = () => {
     const validateFname = (e) =>{
       if(regexName.test(e.target.value)){
         setFnameval(true);
-        setFormError(true);
       }else{
         setFnameval(false);
-        setFormError(false);
       }
     }
 
     const validateLname = (e) => {
       if(regexName.test(e.target.value)){
         setLnameval(true);
-        setFormError(true);
       }else{
         setLnameval(false);
-        setFormError(false);
       }
     }
 
@@ -43,20 +35,16 @@ const ContactUs = () => {
       const str= e.target.value;
       if(!(str.includes("@") && str.includes(".", str.indexOf("@") + 2))){
         setEmailval(true);
-        setFormError(true);
         setEmailmsg("Email must contain '@' and '.' in this order");
-      }else if(str.indexOf("@") == 0){
+      }else if(str.indexOf("@") === 0){
         setEmailval(true);
-        setFormError(true);
         setEmailmsg("Email must have a part before '@'");
-      }else if(str.indexOf(".") == str.length-1){
+      }else if(str.indexOf(".") === str.length-1){
         setEmailval(true);
-        setFormError(true);
         setEmailmsg("Email must have a part after '.'");
       }
       else{
         setEmailval(false);
-        setFormError(false);
         setEmailmsg("");
       }
     }
@@ -65,15 +53,12 @@ const ContactUs = () => {
       const num = e.target.value;
       if(regexContact.test(num)){
         setContactval(true);
-        setFormError(true);
         setContactmsg("Contact Number should only contain digits from 0-9");
       }else if(num.length !== 10){
         setContactval(true);
-        setFormError(true);
         setContactmsg("Contact Number length must be equal to 10");
       }else{
         setContactval(false);
-        setFormError(false);
         setContactmsg("");
       }
     }
