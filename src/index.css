@@ -99,6 +99,10 @@ p{
     background-repeat:no-repeat;
     background-size: cover;
   }
+
+  .content-inactive{
+    display: none;
+  }
 }
 
 
@@ -199,6 +203,10 @@ p{
     background-position:center;
     background-repeat:no-repeat;
     background-size: cover;
+  }
+
+  .content-inactive{
+    display: none;
   }
 }
 
