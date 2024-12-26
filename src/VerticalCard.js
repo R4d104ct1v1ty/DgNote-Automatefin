@@ -1,6 +1,5 @@
 const VerticalCard = (props) => {
     const {
-        imgsrc,
         title,
         content,
         button,

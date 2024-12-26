@@ -1,8 +1,4 @@
 import VerticalCard from './VerticalCard';
-import dl from './Resources/Homepage/document-laptop.png'
-import qa from './Resources/Homepage/quick-approval-laptop.png'
-import loan from './Resources/Homepage/loan for every need-laptop.png'
-import emi from './Resources/Homepage/EMI-laptop.png'
 import wcu from './Resources/Aankerr_Website Image/Why choose us.png'
 import solutions from './Resources/Aankerr_Website Image/Solution for your every requirement.png'
 import ContactUs from './ContactUs';
