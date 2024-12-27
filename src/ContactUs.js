@@ -71,7 +71,7 @@ const ContactUs = () => {
         const email = document.querySelector('#email').value;
         const contact = document.querySelector('#contact').value;
         const msg = document.querySelector('#floatingTextarea2').value;
-        await fetch("https://script.google.com/macros/s/AKfycbx_MtrMB1wNT4gjDzrJQFt-MnfLjwzKggxk-LWTdLFZcwxZzfaNuy3_corSlOz06Mn0/exec", {
+        await fetch("https://script.google.com/macros/s/AKfycbydbFfiB_Dyt9e9VH5LI-Xdod57hF6O_Eq7ataCYva5uWLd5ePHZ-7BocDcSUNviPwPIQ/exec", {
           method: "POST",
           headers: {
             "Content-Type": "application/x-www-form-urlencoded"
