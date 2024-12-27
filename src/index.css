@@ -26,7 +26,7 @@ p{
 @media (min-width: 1000px){
   .hp-hero{
     height: 60vh;
-    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Homepage/hero-transformed.jpeg');
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Aankerr_Website\ Image/Banner\ Image\ .png');
     /* background-repeat:no-repeat;
     background-size: cover;
     background-size: contain;*/
@@ -93,12 +93,12 @@ p{
     flex-direction: 'row';
   }
 
-  .cu-hero{
+  /* .cu-hero{
     background: url('./Resources/Contact\ US/hero.jpg');
     background-position:center;
     background-repeat:no-repeat;
     background-size: cover;
-  }
+  } */
 
   .content-inactive{
     display: none;
@@ -125,6 +125,47 @@ p{
     align-items: center;
     margin-bottom: 20px; /* Increased margin for spacing */
 }
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.contact-item span {
+  font-size: 14px;
+  max-width: 200px;
+}
+
+.contact-item img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
 }
 
 
@@ -135,7 +176,7 @@ p{
 @media (max-width: 1000px){
   .hp-hero{
     height: 60vh;
-    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Homepage/hero-transformed.jpeg');
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('./Resources/Aankerr_Website\ Image/Banner\ Image\ .png');
     /* background-repeat:no-repeat;
     background-size: cover;
     background-size: contain;*/
@@ -157,10 +198,17 @@ p{
     justify-content: center;
   }
 
-  .para-image{
+  .para-image {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  }
+
+  .image-para {
+      height: 300px; /* Smaller height for mobile */
+      margin-top: 20px;
+  }
+
+  .para-text {
+      padding: 20px;
   }
 
   .au-hero{
@@ -220,12 +268,12 @@ p{
     width: 70%;
   }
 
-  .cu-hero{
+  /* .cu-hero{
     background: url('./Resources/Contact\ US/hero.jpg');
     background-position:center;
     background-repeat:no-repeat;
     background-size: cover;
-  }
+  } */
 
   .content-inactive{
     display: none;
@@ -246,6 +294,39 @@ p{
 /* Ensure contact items have spacing on mobile */
 .contact-item {
     margin-bottom: 15px; /* Adjust margin for mobile */
+}
+
+.footer-content {
+  padding: 0 20px;
+}
+
+.footer-section {
+  width: 100%;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.contact-item span {
+  font-size: 14px;
+}
+
+.contact-item img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 }

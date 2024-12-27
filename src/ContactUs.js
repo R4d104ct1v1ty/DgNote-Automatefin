@@ -104,8 +104,8 @@ const ContactUs = () => {
 
     return ( 
         <div>
-            <div className="cu-hero" style={{height:'50vh'}}>
-            </div>
+            {/* <div className="cu-hero" style={{height:'50vh'}}>
+            </div> */}
             <div style={{marginTop: '40px'}}>
                 <h3 style={{color:'#02A650'}}>Get In Touch With Us</h3>
                 <p>Thanks for reaching out. Contact our support team via phone or email for any queries or assistance regarding personal loans. We look forward to hearing from you.</p>
